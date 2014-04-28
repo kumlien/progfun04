@@ -1,0 +1,11 @@
+
+*.class
+
+example/project/project/target
+example/project/target
+example/target
+example/lib_managed
+
+example/.cache
+
+example/.settings/org.scala-ide.sdt.core.prefs
