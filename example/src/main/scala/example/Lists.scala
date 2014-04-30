@@ -44,7 +44,7 @@ object Lists {
    * @throws java.util.NoSuchElementException if `xs` is an empty list
    */
   def max(xs: List[Int]): Int = {
-    iter2(xs,0)
+    iter2(xs,xs.head)
   }
 
   def iter2(list2: List[Int], maxSoFar: Int): Int =
